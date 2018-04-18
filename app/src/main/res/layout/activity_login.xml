@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context="com.example.lenovo.geographysharing.Welcom.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login_head_chuizi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/login_edit"
+        android:hint="帐号"
+        android:inputType="numberSigned"
+        android:maxLength="16"
+        android:textColorHint="#fa88"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_edit"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:textColorHint="#fa88"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_button"
+        android:onClick="onClick"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:background="#0000"
+            android:onClick="onClick"
+            android:text="忘记密码?"
+            android:textColor="#EECFA1"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/login_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="60dp"
+            android:background="#0000"
+            android:onClick="onClick"
+            android:text="注册帐号"
+            android:textColor="#EECFA1"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

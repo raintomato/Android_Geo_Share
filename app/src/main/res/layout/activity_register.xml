@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+<TextView
+android:id="@+id/create_user_title"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="10dp"
+android:gravity="center"
+android:padding="10dp"
+android:text="用户注册"
+android:textColor="#000"
+android:textSize="34dp" />
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:layout_below="@+id/create_user_title"
+android:layout_centerHorizontal="true"
+android:layout_gravity="center"
+android:layout_marginTop="10dp"
+android:background="@drawable/login_head_chuizi" />
+
+<EditText
+android:id="@+id/register_name"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"
+android:layout_marginRight="40dp"
+android:layout_marginTop="25dp"
+android:background="@drawable/login_edit"
+android:hint="帐号"
+android:inputType="numberSigned"
+android:maxLength="16"
+android:textColorHint="#fa88"
+android:textSize="24dp" />
+
+<EditText
+android:id="@+id/register_password1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"
+android:layout_marginRight="40dp"
+android:layout_marginTop="15dp"
+android:background="@drawable/login_edit"
+android:hint="密码"
+android:inputType="numberSigned"
+android:maxLength="16"
+android:textColorHint="#fa88"
+android:textSize="24dp" />
+
+<EditText
+android:id="@+id/register_password2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"
+android:layout_marginRight="40dp"
+android:layout_marginTop="15dp"
+android:background="@drawable/login_edit"
+android:hint="确认密码"
+android:inputType="numberSigned"
+android:maxLength="16"
+android:textColorHint="#fa88"
+android:textSize="24dp" />
+
+    <LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="60dp">
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edit"
+        android:hint="手机号"
+        android:inputType="numberSigned"
+        android:maxLength="16"
+        android:textColorHint="#fa88"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/get_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:text="获取验证码"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+android:id="@+id/phone_code"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="40dp"
+android:layout_marginRight="158dp"
+android:layout_marginTop="15dp"
+android:background="@drawable/login_edit"
+android:hint="验证码"
+android:inputType="numberSigned"
+android:maxLength="16"
+android:textColorHint="#fa88"
+android:textSize="24dp" />
+
+<Button
+android:id="@+id/create_register_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginLeft="40dp"
+android:layout_marginRight="40dp"
+android:layout_marginTop="10dp"
+android:background="@drawable/login_button"
+android:onClick="onClick"
+android:text="注册"
+android:textColor="#fff"
+android:textSize="24dp" />
+
+</LinearLayout>

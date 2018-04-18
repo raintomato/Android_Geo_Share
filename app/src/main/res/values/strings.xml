@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">GeographySharing</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="home_title">首页</string>
+    <string name="blog_title">我的博客</string>
+    <string name="about_title">关于SuperVideo</string>
+
+    <string name="app_description">No matter how time pass，I will always be you side\n</string>
+
+    <string name="site_letv">乐视视频</string>
+    <string name="site_sohu">搜狐视频</string>
+
+    <string name="channel_series">地质类</string>
+    <string name="channel_movie">物探类</string>
+    <string name="channel_comic">化探类</string>
+    <string name="channel_documentary">钻探类</string>
+    <string name="channel_music">地质实验类</string>
+    <string name="channel_variety">技术</string>
+    <string name="channel_live">软件</string>
+    <string name="channel_favorite">收藏</string>
+    <string name="channel_history">足迹</string>
+    <string name="channel_others">其他</string>
+    <string name="channel_mycollection">我的收藏</string>
+
+
+    <string name="a_name">推荐设备信息展示（1）</string>
+    <string name="b_name">推荐设备信息展示（2）</string>
+    <string name="c_name">推荐设备信息展示（3）</string>
+    <string name="d_name">推荐设备信息展示（4）</string>
+    <string name="e_name">推荐设备信息展示（5）</string>
+
+
+    <string name="data_failed_tip">数据加载失败,请检查网络!</string>
+    <string name="load_more_text">正在加载新数据...</string>
+    <string name="no_date_text">暂时没有数据...</string>
+
+    <string name="director">导演：</string>
+    <string name="mainactor">主演：</string>
+    <string name="btn_phone_super">超清\n播放</string>
+    <string name="btn_phone_normal">标清\n播放</string>
+    <string name="btn_phone_high">高清\n播放</string>
+    <string name="favor_selected">已收藏</string>
+    <string name="favor_normal">收藏</string>
+    <string name="stream_super">超清</string>
+    <string name="stream_normal">标清</string>
+    <string name="stream_high">高清</string>
+    <string name="live_title">电视节目直播</string>
+    <string name="favorite_title">我的收藏</string>
+    <string name="action_delete">删除</string>
+    <string name="favorite_empty">收藏夹空空如也,快去收藏吧!</string>
+    <string name="favorite_dialog_message">确定删除?</string>
+    <string name="favorite_dialog_sure">确定</string>
+    <string name="favorite_dialog_quit">取消</string>
+    <string name="history_title">播放历史</string>
+    <string name="history_empty">暂无播放历史!</string>
+
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_error_button">OK</string>
+
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+    <string name="N_A">N/A</string>
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sample">Sample</string>
+    <string name="recent">Recent</string>
+    <string name="settings">Settings</string>
+    <string name="tracks">Tracks</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_render">Render</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="show_info">Info</string>
+    <string name="vdec">vdec</string>
+    <string name="fps">fps</string>
+    <string name="v_cache">v-cache</string>
+    <string name="a_cache">a-cache</string>
+    <string name="load_cost">load-cost</string>
+    <string name="seek_cost">seek_cost</string>
+    <string name="seek_load_cost">seek_load_cost</string>
+    <string name="tcp_speed">tcp_speed</string>
+    <string name="bit_rate">bit_rate</string>
+
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi__selected_audio_track">*</string>
+    <string name="mi__selected_subtitle_track">*</string>
+
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+    <string-array name="geology_spinner">
+        <item>取样钻</item>
+        <item>刻槽取样机</item>
+        <item>岩芯切割机</item>
+        <item>双目立体镜</item>
+        <item>偏光显微镜</item>
+        <item>反光显微镜</item>
+        <item>显微照像设备</item>
+        <item>手持GPS</item>
+    </string-array>
+    <string-array name="physics_prospect_spinner">
+        <item>电阻率法仪</item>
+        <item>激电仪</item>
+        <item>磁力仪</item>
+        <item>磁化率仪</item>
+        <item>重力仪</item>
+        <item>浅震仪</item>
+        <item>地震仪</item>
+        <item>震源车</item>
+        <item>地质雷达</item>
+        <item>瞬变电磁仪</item>
+        <item>大地电磁仪</item>
+        <item>测井仪</item>
+        <item>录井仪</item>
+        <item>Γ能谱仪</item>
+        <item>放射性测量仪</item>
+        <item>测温仪</item>
+        <item>管线仪</item>
+        <item>GPS</item>
+    </string-array>
+    <string-array name="chemistry_prospect_spinner">
+        <item>塞曼测汞仪</item>
+        <item>放射性测量仪</item>
+    </string-array>
+    <string-array name="diamond_prospect_spinner">
+        <item>岩芯钻机（1500米及以上）</item>
+        <item>岩芯钻机（1000米)</item>
+        <item>岩芯钻机（600米)</item>
+        <item>岩芯钻机（300米)</item>
+        <item>水井钻机</item>
+        <item>工程钻机</item>
+        <item>锚杆钻机</item>
+        <item>空气钻进钻具</item>
+        <item>绳索取心钻具</item>
+        <item>测斜仪</item>
+        <item>凿岩台车</item>
+        <item>空压机</item>
+    </string-array>
+    <string-array name="geology_test_spinner">
+
+    </string-array>
+
+</resources>
